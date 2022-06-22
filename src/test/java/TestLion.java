@@ -7,7 +7,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class TestLion1 {
+public class TestLion {
     private static final List<String> FOOD = List.of("Животные","Птицы", "Рыба");
     private static final String MALE = "Самец";
     private static final String FEMALE = "Самка";
