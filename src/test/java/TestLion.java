@@ -47,9 +47,6 @@ public class TestLion {
         Lion lion = new Lion(feline, MALE);
         assertEquals(KITTENS, lion.getKittens());
     }
-
-
-
-
 }
+// // дополнила тестами класс Lion для полного покрытия
 

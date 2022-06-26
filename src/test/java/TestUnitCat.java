@@ -18,3 +18,4 @@ public class TestUnitCat {
     }
 
 }
+// написала юнит тест, используя Мок

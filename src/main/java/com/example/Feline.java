@@ -25,3 +25,4 @@ public class Feline extends Animal implements ChildbearingPredator {
         return kittensCount;
     }
 }
+// изолировала Feline, создав два интерфейса Childbearing and ChildbearingPredator

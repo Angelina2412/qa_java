@@ -31,3 +31,4 @@ public class Lion {
         return childbearingPredator.eatMeat();
     }
 }
+//ничего не меняла
