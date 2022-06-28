@@ -2,16 +2,18 @@ package com.example;
 
 import java.util.List;
 
-   public class Feline extends Animal implements ChildbearingPredator {
+public class Feline extends Animal implements ChildbearingPredator {
 
     @Override
     public List<String> eatMeat() throws Exception {
         return getFood("Хищник");
     }
-       @Override
+
+    @Override
     public String getFamily() {
         return "Кошачьи";
     }
+
     @Override
     public int getKittens() {
 
@@ -22,4 +24,5 @@ import java.util.List;
 
         return kittensCount;
     }
-    }
+}
+// изолировала Feline, создав два интерфейса Childbearing and ChildbearingPredator

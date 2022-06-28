@@ -27,3 +27,4 @@ public class TestUnitLion {
 
     }
 }
+// написала юнит тест, используя Мок
