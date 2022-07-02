@@ -7,10 +7,12 @@ public class Cat {
     Predator predator;
 
     public Cat(Feline feline) {
+
         this.predator = feline;
     }
 
     public String getSound() {
+
         return "Мяу";
     }
 
@@ -19,3 +21,5 @@ public class Cat {
     }
 
 }
+// в классе Cat ничего не меняла
+

@@ -7,3 +7,4 @@ public interface Predator {
     List<String> eatMeat() throws Exception;
 
 }
+// ничего не меняла
