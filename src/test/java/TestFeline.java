@@ -38,3 +38,4 @@ public class TestFeline {
         assertFalse(feline.getFood("Рыба").containsAll(FOOD));
     }
 }
+// дополнила тестами класс Feline для полного покрытия
