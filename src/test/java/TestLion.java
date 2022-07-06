@@ -36,12 +36,14 @@ public class TestLion {
         Lion lion = new Lion(feline, FEMALE);
         assertEquals(WITHOUTMAIN, lion.doesHaveMane());
     }
-    @Test(expected = Exception.class)
-    public void hasNoGender() throws Exception {
-        Lion lion = new Lion(feline, NOGENDER);
-        assertEquals(WITHOUTMAIN, lion.doesHaveMane());
+    @Test
+    public void checkTheException(){
+        try {Lion lion = new Lion(feline, NOGENDER);
+       assertEquals(WITHOUTMAIN, lion.doesHaveMane());
+        } catch (Exception e){
+            assertEquals(EXCEPTION, e.getMessage());
+        }
     }
-
     @Test
     public void getKittensTest() throws Exception{
         Lion lion = new Lion(feline, MALE);
